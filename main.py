@@ -29,7 +29,7 @@ print("Your mission is to find the treasure.")
 choice1 = input('you come to a crossroads at the island, type "left" or type "right" to turn.').lower()
 if choice1 == "left":
   choice2 = input('You found a lake on the island and the path continues across. Type "walk" to walk around the lake. Type "swim" to try and swim across.\n')
-  if choice2 == "wait":
+  if choice2 == "walk":
     choice3 = input('you walk across the lake unharmed. once you have walked across, you come to three different colored chests. one red, one yellow, one blue. Which color do you choose?\n').lower()
     if choice3 == "red":
       print("The chest was filled with deadly bugs and they bit you. You died.")
